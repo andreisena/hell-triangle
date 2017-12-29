@@ -1,0 +1,25 @@
+{
+  "name": "triangle",
+  "version": "0.1.0",
+  "description": "Hell Triangle Challenge for SkyHub.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel ./src --out-dir dist/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreisena/hell-triangle.git"
+  },
+  "author": "Andrei Sena <asena.dev@gmail.com> (andreisena.com.br)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andreisena/hell-triangle/issues"
+  },
+  "homepage": "https://github.com/andreisena/hell-triangle#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
