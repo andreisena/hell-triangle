@@ -37,3 +37,10 @@ let triangle = new Triangle([
 
 console.log(triangle.maxTotal())
 ```
+
+## Tests
+
+To run the tests:
+```bash
+npm test
+```
