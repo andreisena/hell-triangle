@@ -4,7 +4,7 @@
   "description": "Hell Triangle Challenge for SkyHub.",
   "main": "dist/index.js",
   "scripts": {
-    "build": "babel ./src --out-dir dist/",
+    "build": "babel ./src --out-dir ./dist",
     "test": "mocha --reporter spec --require babel-core/register"
   },
   "repository": {
@@ -13,6 +13,10 @@
   },
   "author": "Andrei Sena <asena.dev@gmail.com> (andreisena.com.br)",
   "license": "MIT",
+  "engines": {
+    "node": ">=4.3.2"
+  },
+  "engineStrict": true,
   "bugs": {
     "url": "https://github.com/andreisena/hell-triangle/issues"
   },

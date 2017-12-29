@@ -1,6 +1,9 @@
 # Hell Triangle
 Hell Triangle Challenge for B2W - SkyHub
 
+## Requirements
+Node.js 4.3.2+
+
 ## Solution
 For a small triangle, it's possible to iterate over all lines and calculate all posible routes to return the highest value.
 However, using this technique in triangles with many lines, the number of possible routes could take a long time to be calculated or even overload the memory.
@@ -38,9 +41,17 @@ let triangle = new Triangle([
 console.log(triangle.maxTotal())
 ```
 
+To see this example in action run:
+```js
+node example.js
+```
+
 ## Tests
 
 To run the tests:
 ```bash
 npm test
 ```
+
+## Release History
+* 0.1.0 Initial release

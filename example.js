@@ -1,3 +1,5 @@
+'use strict'
+
 const Triangle = require('./dist')
 
 let triangle = new Triangle([
